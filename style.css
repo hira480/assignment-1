@@ -1,7 +1,11 @@
+body{
+    margin: 0;
+}
 .special-font{
     font-family: 'Merriweather', serif;
 }
 section{
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 h1{
@@ -17,6 +21,9 @@ h1{
 p{
     text-align: justify;
     font-size: 20px;
+}
+.btn-mrgn{
+    margin-top: 40px;
 }
 .color-1{
     color: teal;
@@ -83,6 +90,21 @@ p{
     padding-right: 100px;
    
 }
+.additional{
+    margin-left: 60px;
+    padding-left: 40px;
+}
+.additional h2{
+    font-size: 40px;
+}
+li{
+    font-size: 20px;
+    color: #85929E;
+}
+ul{
+    margin-bottom: 30px;
+}
+
 footer{
     text-align: center;
     background-color: indigo;
@@ -90,6 +112,7 @@ footer{
     margin: 0;
     padding-top: 20px;
     padding-bottom: 15px;
+    width: 100%;
 }
 footer h2{
     font-size: 40px;
