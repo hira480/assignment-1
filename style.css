@@ -1,11 +1,24 @@
-h1{
+.special-font{
     font-family: 'Merriweather', serif;
+}
+h1{
+    
     font-size: 50px;
     margin-left: 5px solid teal;
     padding-left: 5px;
 }
+.left-border{
+    border-left: 5px solid tomato;
+    border-radius: 5px;
+}
+p{
+    text-align: justify;
+}
 .color-1{
     color: teal;
+}
+.color-2{
+    color: gray;
 }
 .part-1{
     display: flex;
@@ -24,6 +37,50 @@ h1{
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: 700;
+    color: white;    
+}
+.mission{
+    text-align: center;
+}
+.illustrator-mom{
+    margin: 20px 40px;
+}
+.illustrator img{
+     width: 35%;
+}
+.illustrator{
+    width: 30%;
+    margin-left: 30px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.card-1{
+    background-color: #EAF2F8;
+}
+.card-2{
+    background-color: #FAE5D3;
+}
+.card-3{
+    background-color: #D5F5E3;
+}
+.developer{
+    width: 100%;
+}
+
+#coding img{
+    padding-right: 20px;
+}
+footer{
+    text-align: center;
+    background-color: indigo;
+    height: 130px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+footer h2{
+    font-size: 40px;
+}
+footer h3{
     color: white;
-    
 }
