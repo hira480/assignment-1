@@ -1,6 +1,9 @@
 .special-font{
     font-family: 'Merriweather', serif;
 }
+section{
+    margin-bottom: 30px;
+}
 h1{
     
     font-size: 50px;
@@ -13,6 +16,7 @@ h1{
 }
 p{
     text-align: justify;
+    font-size: 20px;
 }
 .color-1{
     color: teal;
@@ -23,6 +27,9 @@ p{
 .part-1{
     display: flex;
     
+}
+.part-2{
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -65,10 +72,16 @@ p{
 }
 .developer{
     width: 100%;
+    margin-bottom: 100px;
+}
+.developer p{
+    padding-right: 150px;
+    
 }
 
 #coding img{
-    padding-right: 20px;
+    padding-right: 100px;
+   
 }
 footer{
     text-align: center;
